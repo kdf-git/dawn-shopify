@@ -1,11 +1,13 @@
-{
-    "name": "gridcategoriessec",
+  {
     "sections": {
       "main": {
-        "type": "gridcategoriessec"
+        "type": "gridcategoriessec",
+        "settings": {
+        }
       }
     },
     "order": [
       "main"
     ]
   }
+  
