@@ -1,8 +1,8 @@
 {
-    "name": "gridCategories",
+    "name": "gridcategoriessec",
     "sections": {
       "main": {
-        "type": "gridCategories"
+        "type": "gridcategoriessec"
       }
     },
     "order": [
