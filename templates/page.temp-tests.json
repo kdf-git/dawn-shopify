@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "gridcategoriessec",
+      "type": "announcement-bar",
       "settings": {
         
       }
