@@ -216,7 +216,8 @@
       "type": "section-tests",
       "settings": {
         "custom_text_title": "My title here",
-        "custom_text_body": "<p>Here is the body of my text<\/p>"
+        "custom_text_body": "<p>Here is the body of my text<\/p>",
+        "image_uploader": "shopify:\/\/shop_images\/for-you-shelf.jpg"
       }
     }
   },

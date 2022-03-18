@@ -1,8 +1,8 @@
 <div class="custom-text-section page-width">
     <h2> {{ section.settings.custom_text_title }} </h2>
     <div>{{ section.settings.custom_text_body }}</div>
-    <div>{{ section.settings.image_uploader }}</div>
-  </div>
+    <div>{{ section.settings.image_uploader | img_url: '1500x'}}</div>
+</div>
   
   {% schema %}
     {
