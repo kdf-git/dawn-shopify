@@ -13,9 +13,7 @@
     <div>{{ section.settings.custom_text_body }}</div>
     <div> <img src="{{ section.settings.image_uploader | img_url: '500x500' }}" /> </div>
     <div>{% if section.settings.show_announcement == true %}
-        {{page.id}}
-        {% else %}
-            Hi Stranger!
+        Display this is announcement is True
       {% endif %} </div>
 
     
