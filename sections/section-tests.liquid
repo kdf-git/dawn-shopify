@@ -14,7 +14,9 @@
     <div> <img src="{{ section.settings.image_uploader | img_url: '500x500' }}" /> </div>
     <div> {{ section.settings.show_announcement }} </div>
 
-    
+    <div> {% for blog in blogs %}
+        {{ blog.title }}
+      {% endfor %} </div>
     
   
   {% schema %}
