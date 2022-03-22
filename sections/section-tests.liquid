@@ -12,9 +12,7 @@
     <h2> {{ section.settings.custom_text_title }} </h2>
     <div>{{ section.settings.custom_text_body }}</div>
     <div> <img src="{{ section.settings.image_uploader | img_url: '500x500' }}" /> </div>
-    <div>{% if section.settings.show_announcement == true %}
-        Display this is announcement is True
-      {% endif %} </div>
+    <div> {{ section.settings.show_announcement }} </div>
 
     
     
