@@ -222,15 +222,6 @@
         "padding_bottom": 36
       }
     },
-    "16476000955d85d41f": {
-      "type": "section-tests",
-      "settings": {
-        "custom_text_title": "Section Test Here",
-        "custom_text_body": "<p>Here is the body of my text<\/p>",
-        "image_uploader": "shopify:\/\/shop_images\/190a1286-ccca-457d-bb2a-dbcce836612b.jpg",
-        "show_announcement": false
-      }
-    },
     "1647846290d7075a87": {
       "type": "featured-collection",
       "settings": {
@@ -258,7 +249,6 @@
     "collage",
     "video",
     "multicolumn",
-    "16476000955d85d41f",
     "1647846290d7075a87"
   ]
 }
