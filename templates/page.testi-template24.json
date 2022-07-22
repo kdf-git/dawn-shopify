@@ -6,9 +6,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "kyakabi": {
+      "type": "collage",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "kyakabi"
   ]
 }
