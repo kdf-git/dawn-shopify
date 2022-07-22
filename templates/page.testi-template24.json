@@ -17,25 +17,25 @@
             "image_padding": false
           }
         },
-        "926352da-a58a-4bb6-a219-fe13dddf8179": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pacific-Hero-Image.jpg",
-            "image_padding": false
-          }
-        },
         "2e4f929f-92ba-438e-a145-98c4f3186f3c": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/for-you-shelf.jpg",
             "image_padding": false
           }
+        },
+        "dac0e4af-86cd-4cfa-86c1-47a834aa8385": {
+          "type": "product",
+          "settings": {
+            "product": "blue-silk-tuxedo",
+            "second_image": false
+          }
         }
       },
       "block_order": [
         "661a20fe-3ea9-4b34-a56a-374b300137f0",
-        "926352da-a58a-4bb6-a219-fe13dddf8179",
-        "2e4f929f-92ba-438e-a145-98c4f3186f3c"
+        "2e4f929f-92ba-438e-a145-98c4f3186f3c",
+        "dac0e4af-86cd-4cfa-86c1-47a834aa8385"
       ],
       "settings": {
         "heading": "Tests Multimedia collage",
