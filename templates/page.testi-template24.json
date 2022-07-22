@@ -9,6 +9,26 @@
     },
     "kyakabi": {
       "type": "collage",
+      "blocks": {
+        "661a20fe-3ea9-4b34-a56a-374b300137f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/190a1286-ccca-457d-bb2a-dbcce836612b.jpg",
+            "image_padding": false
+          }
+        },
+        "926352da-a58a-4bb6-a219-fe13dddf8179": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pacific-Hero-Image.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "661a20fe-3ea9-4b34-a56a-374b300137f0",
+        "926352da-a58a-4bb6-a219-fe13dddf8179"
+      ],
       "settings": {
         "heading": "Tests Multimedia collage",
         "desktop_layout": "left",
