@@ -22,6 +22,7 @@
 {%- endstyle -%}
 
 <h1>   {{ page_title }} must be the actual page we're on</h1>
+<h3>  {{ collection.products_count }} <<-- This right here is the number of products in a a collection </h3>
 
 <div class="section-{{ section.id }}-padding">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
