@@ -247,8 +247,8 @@
     }
   },
   "order": [
-    "superJalibu",
     "main",
+    "superJalibu",
     "image_banner",
     "rich_text",
     "featured_collection",
