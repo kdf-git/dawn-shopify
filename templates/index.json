@@ -18,6 +18,11 @@
       "settings": {
       }
     },
+    "superJalibu": {
+      "type": "jalibu",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -242,6 +247,7 @@
     }
   },
   "order": [
+    "superJalibu",
     "main",
     "image_banner",
     "rich_text",
