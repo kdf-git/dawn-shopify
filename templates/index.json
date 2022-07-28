@@ -1,5 +1,12 @@
 {
   "sections": {
+    "superJalibu": {
+      "type": "jalibu",
+      "settings": {
+        "jalibuId": "This is the heading ya Store",
+        "jalibuParagraph": "This right here is the page paragraph... Say somn"
+      }
+    },
     "main": {
       "type": "announcement-bar",
       "blocks": {
@@ -15,11 +22,6 @@
       "block_order": [
         "b70db8e2-19d2-48c3-b98c-0f7f5e2f9a33"
       ],
-      "settings": {
-      }
-    },
-    "superJalibu": {
-      "type": "jalibu",
       "settings": {
       }
     },
