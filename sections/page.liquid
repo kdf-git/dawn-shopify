@@ -16,6 +16,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .conditional-tests{
+    background-color: cadetblue;
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -30,26 +34,6 @@
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
-         <h1 class="conditional-tests"> soihog  spojgpsosg </h1>
-         {{ section.settings.page.title | escape }}
-        {% if page.handle == "conditionals-on-page-template" %}
-          
-          {% style %}
-             .conditional-tests {
-              background-color: bisque;
-          }
-
-          .page-width {
-              padding-left: 200px;
-              padding-right: 200px;
-
-              background-color: blue;
-          }
-          
-          {% endstyle %}
-
-          {% endif %}
-
       {%- else -%}
         <div class='page-placeholder-wrapper placeholder'>
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
@@ -58,15 +42,6 @@
     </div>
   </div>
 </div>
-
-{% style %}
-.page-width {
-              padding-left: 200px;
-              padding-right: 200px;
-
-              background-color: blue;
-          }
-{% endstyle %}
 
 {% schema %}
 {
