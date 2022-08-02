@@ -33,11 +33,11 @@
          <h1 class="conditional-tests"> soihog  spojgpsosg </h1>
          {{ section.settings.page.title | escape }}
         {% if page.handle == "conditionals-on-page-template" %}
-          <style>
-
-            .conditional-tests{
-              background-color: cadetblue;
-            }
+          
+          {%style%}
+             .conditional-tests {
+              background-color: bisque;
+          }
 
           .page-width {
               padding-left: 200px;
@@ -45,7 +45,9 @@
 
               background-color: blue;
           }
-          </style>
+          
+          {%endstyle%}
+
           {% endif %}
 
       {%- else -%}
