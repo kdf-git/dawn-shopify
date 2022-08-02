@@ -30,9 +30,14 @@
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
-         <h1> soihog  spojgpsosg </h1>
+         <h1 class="conditional-tests"> soihog  spojgpsosg </h1>
         {% if page.handle == "conditionals-on-page-template" %}
           <style>
+
+            .conditional-tests{
+              background-color: cadetblue;
+            }
+
           .page-width {
               padding-left: 200px;
               padding-right: 200px;
