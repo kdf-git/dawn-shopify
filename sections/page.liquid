@@ -30,6 +30,18 @@
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
+
+        {% if page.handle == "conditionals-on-page-template" %}
+          <style>
+          .page-width {
+              padding-left: 200px;
+              padding-right: 200px;
+
+              background-color: blue;
+          }
+          </style>
+          {% endif %}
+
       {%- else -%}
         <div class='page-placeholder-wrapper placeholder'>
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
