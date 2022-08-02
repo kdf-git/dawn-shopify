@@ -2811,3 +2811,7 @@ details-disclosure > details {
     }
   }
 }
+
+.featured-product > .product__info-container{
+  background-color: cadetblue;
+}
