@@ -34,7 +34,7 @@
          {{ section.settings.page.title | escape }}
         {% if page.handle == "conditionals-on-page-template" %}
           
-          {%style%}
+          {% style %}
              .conditional-tests {
               background-color: bisque;
           }
@@ -46,7 +46,7 @@
               background-color: blue;
           }
           
-          {%endstyle%}
+          {% endstyle %}
 
           {% endif %}
 
@@ -58,6 +58,15 @@
     </div>
   </div>
 </div>
+
+{% style %}
+.page-width {
+              padding-left: 200px;
+              padding-right: 200px;
+
+              background-color: blue;
+          }
+{% endstyle %}
 
 {% schema %}
 {
