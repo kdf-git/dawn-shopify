@@ -1,5 +1,12 @@
 {
   "sections": {
+    "superJalibu": {
+      "type": "jalibu",
+      "settings": {
+        "jalibuId": "Christmas",
+        "jalibuParagraph": "Move in silence"
+      }
+    },
     "16594304700da323ee": {
       "type": "featured-product",
       "blocks": {
@@ -69,13 +76,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "superJalibu": {
-      "type": "jalibu",
-      "settings": {
-        "jalibuId": "Christmas",
-        "jalibuParagraph": "Move in silence"
       }
     },
     "main": {
@@ -302,8 +302,8 @@
     }
   },
   "order": [
-    "16594304700da323ee",
     "superJalibu",
+    "16594304700da323ee",
     "main",
     "image_banner",
     "rich_text",
