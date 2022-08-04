@@ -204,8 +204,6 @@
                 <h3> Man eno product ya kabi nyo ate! </h3>
               {% endif %}  
             {% endfor %}  
-
-            <h3> Mwana kano ka product ka kabi nyo</h3>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
