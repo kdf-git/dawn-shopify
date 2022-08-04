@@ -202,7 +202,11 @@
             {% for tag in product.tags %}
               {% if tag == "Airports" %}
                 <h3> Man eno product ya kabi nyo ate! </h3>
-              {% endif %}  
+
+                {% else %}
+                <h4> this product {{ product.title }}  has no X-Factor bro </h4>
+              {% endif %} 
+
             {% endfor %}  
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
