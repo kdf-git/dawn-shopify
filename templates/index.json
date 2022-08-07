@@ -1,8 +1,78 @@
 {
   "sections": {
+    "16594304700da323ee": {
+      "type": "featured-product",
+      "blocks": {
+        "16594304704893e929-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16594304704893e929-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16594304704893e929-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16594304704893e929-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16594304704893e929-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16594304704893e929-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16594304704893e929-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16594304704893e929-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16594304704893e929-0",
+        "16594304704893e929-1",
+        "16594304704893e929-2",
+        "16594304704893e929-3",
+        "16594304704893e929-4",
+        "16594304704893e929-5",
+        "16594304704893e929-6",
+        "16594304704893e929-7"
+      ],
+      "settings": {
+        "product": "boho-earrings",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "superJalibu": {
       "type": "jalibu",
-      "disabled": true,
       "settings": {
         "jalibuId": "Christmas",
         "jalibuParagraph": "Move in silence"
@@ -232,6 +302,7 @@
     }
   },
   "order": [
+    "16594304700da323ee",
     "superJalibu",
     "main",
     "image_banner",
