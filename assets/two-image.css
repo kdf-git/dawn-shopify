@@ -1,0 +1,221 @@
+/* 
+
+CTA color: #f04f36
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    /* background-color: red; */
+    margin: 0 auto;
+    color: #ffffff;
+}
+img{
+    max-width: 100%;
+}
+.category-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem 0;
+    /* Temp-colr-Testing css in Shopify */
+    background-color: cornflowerblue;
+}
+.freshen{
+    width: 65.5%;
+    height: 30.714285714285715vw;
+    background-image: url("../Assets/freshen-position1-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inspire{
+    position: relative;
+    width: 33%;
+    height: 30.714285714285715vw;
+    background-image: url("../Assets/inspire-position2-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inspire-content{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 14rem;
+}
+.inspire-content h2{
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+.inspire-content p{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.category-cta{
+    padding: .7rem 1rem;
+    border-radius: 3px;
+    border: 0;
+    background-color: #f04f36;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 2.5rem 0;
+}
+.freshen-content{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 26rem;
+}
+.freshen-content h2{
+    font-size: 1.8rem;
+    margin: 0.5rem 0px;
+}
+.freshen-content p{
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+.cookware-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem 0;
+}
+.cook-up{
+    position: relative;
+    width: 33%;
+    height: 30.714285714285715vw;
+    background-image: url("../Assets/cook-up-img-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.cook-up-content{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 16rem;
+}
+.cook-up-content h2{
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+.cook-up-content P{
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+.fifty-off{
+    position: relative;
+    width: 65.5%;
+    height: 30.714285714285715vw;
+    background-image: url("../Assets/50-off-img-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.fifty-off-off-content{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 26rem;
+}
+.fifty-off-off-content h2{
+    font-size: 1.8rem;
+    margin: 0.5rem 0px;
+}
+.fifty-off-off-content p{
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+@media (max-width: 800px) {
+    .category-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 1rem 1rem;
+    }
+    .freshen{
+        width: 100%;
+        height: 30.714285714285715vw;
+        background-image: url("../Assets/freshen-position1-.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 1rem 0;
+    }
+    .inspire{
+        position: relative;
+        width: 100%;
+        height: 30.714285714285715vw;
+        background-image: url("../Assets/inspire-position2-.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .cookware-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 1rem 1rem;
+    }
+    .cook-up{
+        position: relative;
+        width: 100%;
+        height: 30.714285714285715vw;
+        background-image: url("../Assets/cook-up-img-.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .fifty-off{
+        position: relative;
+        width: 100%;
+        height: 30.714285714285715vw;
+        background-image: url("../Assets/50-off-img-.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 1rem 0;
+    }
+}
+
+
+/* 
+
+    div wrapping all featured collection section.
+    - Uses CSS Grid
+
+        display: grid;
+        padding: 0;
+        grid-template-columns: repeat(5,1fr);
+        grid-column-gap: 20px;
+        column-gap: 20px;
+        grid-row-gap: 20px;
+        row-gap: 20px;
+
+
+        Define widths/height of columns:
+
+        
+
+*/
+
+.home-featured-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.product-item-main{
+    grid-column: span 3;
+    grid-row: span 2;
+}
