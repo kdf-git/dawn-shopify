@@ -2,6 +2,7 @@
   "sections": {
     "superJalibu": {
       "type": "jalibu",
+      "disabled": true,
       "settings": {
         "jalibuId": "Christmas",
         "jalibuParagraph": "Move in silence"
@@ -9,6 +10,7 @@
     },
     "twoImagebanner": {
       "type": "twoImagebanner",
+      "disabled": true,
       "settings": {
         "section_title": "Headline Wano!",
         "text": "<p>Naming JSON templates<a href=\"https:\/\/shopify.dev\/themes\/architecture\/templates\/json-templates#naming-json-templates\">Anchor link to section titled \"Naming JSON templates\"<\/a><\/p><p>The filename must be a valid <a href=\"https:\/\/shopify.dev\/themes\/architecture\/templates#template-types\">theme template type<\/a>, with an optional suffix for an alternate template. For example, a product template can be named product.json or product.alternate.json.<\/p><p>A template can only exist as a JSON or Liquid template, not both. For example, if product.liquid already exists, then you can't create product.json.<\/p>"
