@@ -1,76 +1,5 @@
 {
   "sections": {
-    "16594304700da323ee": {
-      "type": "featured-product",
-      "blocks": {
-        "16594304704893e929-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "16594304704893e929-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "16594304704893e929-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "16594304704893e929-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16594304704893e929-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "16594304704893e929-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "16594304704893e929-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "16594304704893e929-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "16594304704893e929-0",
-        "16594304704893e929-1",
-        "16594304704893e929-2",
-        "16594304704893e929-3",
-        "16594304704893e929-4",
-        "16594304704893e929-5",
-        "16594304704893e929-6",
-        "16594304704893e929-7"
-      ],
-      "settings": {
-        "product": "boho-earrings",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "superJalibu": {
       "type": "jalibu",
       "settings": {
@@ -81,6 +10,8 @@
     "featuredTextNew": {
       "type": "featuredtext",
       "settings": {
+        "section_title": "Talk about your brand",
+        "text": "<p>Becoming a freelancer can be challenging to beginners, in this video I interview top Shopify experts to sum up their years of experience in a fun interview. You will learn everything you need to know including coding, soft skills, and how to get your first freelancing client. Learning web development and getting into Shopify coding has never been easier and it’s a great route if you want to change your career and don’t know which skill to specialize in. It also gives you the ability to work remotely and travel the world as a digital nomad.<\/p>"
       }
     },
     "main": {
@@ -307,7 +238,6 @@
     }
   },
   "order": [
-    "16594304700da323ee",
     "superJalibu",
     "featuredTextNew",
     "main",
