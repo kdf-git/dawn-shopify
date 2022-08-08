@@ -10,15 +10,8 @@
     "twoImagebanner": {
       "type": "twoImagebanner",
       "settings": {
-        "section_title": "Your brand headline here...",
-        "text": "<p>Becoming a freelancer can be challenging to beginners, in this video I interview top Shopify experts to sum up their years of experience in a fun interview. You will learn everything you need to know including coding, soft skills, and how to get your first freelancing client. Learning web development and getting into Shopify coding has never been easier and it’s a great route if you want to change your career and don’t know which skill to specialize in. It also gives you the ability to work remotely and travel the world as a digital nomad.<\/p>"
-      }
-    },
-    "featuredTextNew": {
-      "type": "featuredtext",
-      "settings": {
-        "section_title": "Your brand headline here...",
-        "text": "<p>Becoming a freelancer can be challenging to beginners, in this video I interview top Shopify experts to sum up their years of experience in a fun interview. You will learn everything you need to know including coding, soft skills, and how to get your first freelancing client. Learning web development and getting into Shopify coding has never been easier and it’s a great route if you want to change your career and don’t know which skill to specialize in. It also gives you the ability to work remotely and travel the world as a digital nomad.<\/p>"
+        "section_title": "Headline Wano!",
+        "text": "<p>Naming JSON templates<a href=\"https:\/\/shopify.dev\/themes\/architecture\/templates\/json-templates#naming-json-templates\">Anchor link to section titled \"Naming JSON templates\"<\/a><\/p><p>The filename must be a valid <a href=\"https:\/\/shopify.dev\/themes\/architecture\/templates#template-types\">theme template type<\/a>, with an optional suffix for an alternate template. For example, a product template can be named product.json or product.alternate.json.<\/p><p>A template can only exist as a JSON or Liquid template, not both. For example, if product.liquid already exists, then you can't create product.json.<\/p>"
       }
     },
     "main": {
@@ -246,7 +239,6 @@
   },
   "order": [
     "superJalibu",
-    "featuredTextNew",
     "twoImagebanner",
     "main",
     "image_banner",
