@@ -4,9 +4,15 @@
       "type": "featuredtext",
       "settings": {
       }
+    },
+    "twoImagebanner": {
+      "type": "twoImagebanner",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "twoImagebanner"
   ]
 }
