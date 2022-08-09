@@ -1,7 +1,17 @@
-<h2>{{ section.settings.section_title | escape }}</h2>
-{{ section.settings.text }}
+{{ 'two-image' | asset_url | stylesheet_tag }}
 
-<img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy">
+<div class="container"> 
+<div class="category-wrapper"> 
+<div class="freshen"> 
+        <h2 >{{ section.settings.section_title | escape }}</h2>
+        {{ section.settings.text }}
+
+        <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div>
+        </div>
+</div> 
+
+
+
 
 
 
