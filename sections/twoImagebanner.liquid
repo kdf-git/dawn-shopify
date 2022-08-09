@@ -2,9 +2,9 @@
 
 
 <div class="container"> 
-<div class="category-wrapper"> 
-<div class="freshen"> 
-<div class="freshen-content"> 
+  <div class="category-wrapper"> 
+      <div class="freshen"> 
+        <div class="freshen-content"> 
 <h2> {% if section.settings.section_title != blank %} 
 {{ section.settings.section_title | escape }}
 {% endif %}
@@ -12,8 +12,9 @@
 {{ section.settings.text }}
 
 <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div>
-</div> </div>
-
+  </div> 
+      </div>
+    </div>
         
 </div> 
 
