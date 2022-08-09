@@ -1,10 +1,11 @@
-{{ 'two-image' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'two-image.css' | asset_url | stylesheet_tag }}">
+
 
 <div class="container"> 
 <div class="category-wrapper"> 
 <div class="freshen"> 
 <div class="freshen-content"> 
-<h2 > {% if section.settings.section_title != blank %} 
+<h2> {% if section.settings.section_title != blank %} 
 {{ section.settings.section_title | escape }}
 {% endif %}
 </h2>
