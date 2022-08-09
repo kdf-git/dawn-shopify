@@ -1,6 +1,7 @@
 <h2>{{ section.settings.section_title | escape }}</h2>
 {{ section.settings.text }}
 
+
 {% schema %}
 {
   "name": "Two Image Banner",
@@ -16,6 +17,11 @@
       "id": "text",
       "label": "Text",
       "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "imagePickerOne",
+      "label": "Image for this section"
     }
   ],
   "presets": [
