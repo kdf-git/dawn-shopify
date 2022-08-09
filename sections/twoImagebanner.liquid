@@ -1,6 +1,6 @@
 <h2>{{ section.settings.section_title | escape }}</h2>
 {{ section.settings.text }}
-{{ section.settings.imagePickerOne }}
+{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}
 
 
 {% schema %}
