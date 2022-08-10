@@ -1,5 +1,13 @@
-<link rel="stylesheet" href="{{ 'two-image.css' | asset_url | stylesheet_tag }}">
+{% comment %} <link rel="stylesheet" href="{{ 'two-image.css' | asset_url | stylesheet_tag }}">
+{{ 'theme-custom.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
+
+{% style %} 
+  .category-wrapper{
+    background-color: blue;
+  }
+
+{% endstyle %}
 
 <div class="container"> 
   <div class="category-wrapper"> 
