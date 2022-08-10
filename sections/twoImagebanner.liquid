@@ -3,12 +3,12 @@
 
 
 
-{% comment %} {% style %} 
-  .category-wrapper{
-    background-color: blue;
+ {% style %} 
+  .bgImg-{
+    background-image: <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}">
   }
 
-{% endstyle %} {% endcomment %}
+{% endstyle %}
 
 <div class="container"> 
   <div class="category-wrapper"> 
