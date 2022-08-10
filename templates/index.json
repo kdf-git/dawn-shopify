@@ -235,10 +235,7 @@
       "settings": {
         "section_title": "Left section title here",
         "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "backgroundImagePicker": "shopify:\/\/shop_images\/freshen-position1.png",
-        "section_titleTwo": "Right Section title here...",
-        "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
-        "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
+        "backgroundImagePicker": "shopify:\/\/shop_images\/freshen-position1.png"
       }
     }
   },
