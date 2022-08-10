@@ -5,8 +5,8 @@
 
 {% style %} 
   .bgImg-{
-    background-image: <img src="{{ section.settings.backgroundImagePicker | image_url: width: 400, height: 400 }}">
-    
+    /* background-image: <img src="{{ section.settings.backgroundImagePicker | image_url: width: 400, height: 400 }}"> */
+    background-image: url('{{ section.settings.backgroundImagePicker | img_url: 'master' }}');
   }
 
 {% endstyle %}
