@@ -31,19 +31,16 @@ img{
 .freshen{
     width: 65.5%;
     height: 30.714285714285715vw;
-    background-image: url("../Assets/freshen-position1-.png");
+    /* background-image: url("../Assets/freshen-position1-.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-.bgImg-{
-    
 }
 .inspire{
     position: relative;
     width: 33%;
     height: 30.714285714285715vw;
-    background-image: url("../Assets/inspire-position2-.png");
+    /* background-image: url("../Assets/inspire-position2-.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
