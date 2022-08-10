@@ -23,10 +23,17 @@
 </h2>
 <p> {{ section.settings.text }} </p> 
 
-{% comment %} <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div> {% endcomment %}
   </div> 
       </div>
+      <div class="inspire">
+        <div class="inspire-content">
+            <h2> {% if section.settings.section_title != blank %} {{section.settings.section_title}} {% endif %} </h2>
+            <p>Add some personality and warmth to your home office!
+            </p>
+            <button class="category-cta">Shop All</button>
+        </div>
     </div>
+        </div>
         
 </div> 
 
@@ -54,9 +61,26 @@
     {
       "type": "image_picker",
       "id": "backgroundImagePicker",
-      "label": "Image for this section"
+      "label": "Image 2 for this section"
+    },
+    {
+    "type": "text",
+    "id": "section_titleTwo",
+    "label": "Second Title",
+    "default": "Two Talk about your brand"
+    },
+    {
+    "type": "richtext",
+    "id": "textTwo",
+    "label": "Second Text",
+    "default": "<p>Second Description Use this text to share information about your brand with your</p>"
+    },
+    {
+    "type": "image_picker",
+    "id": "backgroundImagePickerTwo",
+    "label": "Second Image for this section"
     }
-  ],
+],
   "presets": [
     {
       "name": "Two Image Banner",
