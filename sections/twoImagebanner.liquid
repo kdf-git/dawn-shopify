@@ -5,8 +5,10 @@
 
 {% style %} 
   .bgImg-{
-    /* background-image: <img src="{{ section.settings.backgroundImagePicker | image_url: width: 400, height: 400 }}"> */
     background-image: url('{{ section.settings.backgroundImagePicker | img_url: 'master' }}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 
 {% endstyle %}
@@ -19,7 +21,7 @@
 {{ section.settings.section_title | escape }}
 {% endif %}
 </h2>
-{{ section.settings.text }}
+<p> {{ section.settings.text }} </p> 
 
 {% comment %} <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div> {% endcomment %}
   </div> 
