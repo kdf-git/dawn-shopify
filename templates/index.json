@@ -234,7 +234,8 @@
       "type": "twoImagebanner",
       "settings": {
         "section_title": "Talk about your brand",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "backgroundImagePicker": "shopify:\/\/shop_images\/bright-floral-womens-summer-fashion.jpg"
       }
     }
   },
