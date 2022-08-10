@@ -3,16 +3,16 @@
 
 
 
- {% style %} 
+ {% comment %} {% style %} 
   .bgImg-{
-    background-image: <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}">
+    background-image: <img src="{{ section.settings.backgroundImagePicker | image_url: width: 400, height: 400 }}">
   }
 
-{% endstyle %}
+{% endstyle %} {% endcomment %}
 
 <div class="container"> 
   <div class="category-wrapper"> 
-      <div class="freshen bgImg-{% if section.setings.backgroundImagePicker != blank %} <img src="{{ section.settings.imagePickerOne | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div> {% endif %}"> 
+      <div class="freshen bgImg-{% if section.setings.backgroundImagePicker != blank %} <img src="{{ section.settings.backgroundImagePicker | image_url: width: 400, height: 400 }}" alt="" loading="lazy"> </div> {% endif %}"> 
         <div class="freshen-content"> 
 <h2> {% if section.settings.section_title != blank %} 
 {{ section.settings.section_title | escape }}
