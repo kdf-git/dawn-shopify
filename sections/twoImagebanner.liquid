@@ -1,13 +1,13 @@
-{% comment %} <link rel="stylesheet" href="{{ 'two-image.css' | asset_url | stylesheet_tag }}">
-{{ 'theme-custom.css' | asset_url | stylesheet_tag }} {% endcomment %}
+{% comment %} <link rel="stylesheet" href="{{ 'two-image.css' | asset_url | stylesheet_tag }}"> {% endcomment %}
+{{ 'theme-custom.css' | asset_url | stylesheet_tag }}
 
 
-{% style %} 
+{% comment %} {% style %} 
   .category-wrapper{
     background-color: blue;
   }
 
-{% endstyle %}
+{% endstyle %} {% endcomment %}
 
 <div class="container"> 
   <div class="category-wrapper"> 
