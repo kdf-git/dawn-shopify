@@ -57,7 +57,7 @@
                 {% for page in pages -%}
                 <li>  {{ page.title | link_to: page.url }} </li>
                 {%- endfor %}
-
+                <a href="{{ page.url }}"><li>  {{ page.title | link_to: page.url }} </li></a>
                 {{- paginate | default_pagination }}
               {%- endpaginate %}
         </ul>
