@@ -53,12 +53,12 @@
           </ul> {% endcomment %}
 
         <ul>
-              {% paginate pages by 2 -%}
+              {% paginate pages by 4 -%}
                 {% for page in pages -%}
                 <li>  {{ page.title | link_to: page.url }} </li>
                 {%- endfor %}
 
-                {% comment %} {{- paginate | default_pagination }} {% endcomment %}
+                {{- paginate | default_pagination }}
               {%- endpaginate %}
         </ul>
 </div> 
