@@ -58,7 +58,7 @@
                 <li>  {{ page.title | link_to: page.url }} </li>
                 {%- endfor %}
 
-                {{- paginate | default_pagination }}
+                {% comment %} {{- paginate | default_pagination }} {% endcomment %}
               {%- endpaginate %}
         </ul>
 </div> 
