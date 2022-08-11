@@ -52,6 +52,13 @@
           {%- endpaginate -%}
           </ul> {% endcomment %}
 
+          <ul>
+            {% for link in linklists.main-menu.links %}
+            <li>  {{ linklists.main-menu.links }} </li>
+            {% endfor %}
+            
+          </ul>
+
         <ul>
               {% paginate pages by 4 -%}
                 {% for page in pages -%}
