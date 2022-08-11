@@ -90,12 +90,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "aa3591ce-0799-4927-a226-7c42771b1bf3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"https:\/\/texasdtech.myshopify.com\/pages\/contact-us\" class=\" button button--full-width button--primary\">Contact us<\/a>"
-          }
         }
       },
       "block_order": [
@@ -111,8 +105,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "aa3591ce-0799-4927-a226-7c42771b1bf3"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,

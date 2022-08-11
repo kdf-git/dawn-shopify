@@ -264,5 +264,14 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% if page.handle == 'contact' %}
+      <style>
+        button.button {
+          background-color: #a70000;
+      }
+      </style>
+    {% endif %}
+
   </body>
 </html>
