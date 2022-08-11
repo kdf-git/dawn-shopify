@@ -41,7 +41,16 @@
     </div>
         </div>
 
-        <h3> {{ pages.title }} </h3>
+        {% comment %} <h3> {{ pages.title }} </h3> {% endcomment %}
+
+        <ul>
+          {%- paginate pages by 50 -%}
+              {%- for p in pages -%}
+                  <li>{{ p.title }}</li>
+              {%- endfor -%}
+              {{ paginate | default_pagination: next: 'Older', previous: 'Newer' }} 
+          {%- endpaginate -%}
+          </ul>
         
 </div> 
 
