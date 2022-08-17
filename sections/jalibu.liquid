@@ -6,7 +6,9 @@
     {% comment %} <h3 class="testing-menu-handles"> {{ pages.title }} </h3> {% endcomment %}
     
     {% for link in linklists.secondary-menu.links %}
-      <h3> {{- link.title -}} </h3>
+      <ul class="menu-tests">  
+          <li>{{- link.title -}}</li>
+    </ul>
     {% endfor %}
 
 </div>
@@ -15,6 +17,10 @@
 {%- style -%}
     .AirBnB{
         background-color: darkturquoise;
+    }
+
+    .menu-tests{
+      display: flex;
     }
 
 {%- endstyle -%}
