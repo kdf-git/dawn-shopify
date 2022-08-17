@@ -5,12 +5,11 @@
     <p> {{- section.settings.jalibuParagraph -}} </p>
     {% comment %} <h3 class="testing-menu-handles"> {{ pages.title }} </h3> {% endcomment %}
     
-    {% for link in linklists.secondary-menu.links %}
-      <ul class="menu-tests">  
-          <li>{{- link.title -}}</li>
-    </ul>
-    {% endfor %}
-
+    <ul class="menu-tests"> 
+        {% for link in linklists.secondary-menu.links %}
+              <li>{{- link.title -}}</li>
+        {% endfor %}
+  </ul>
 </div>
 
 
