@@ -362,9 +362,13 @@
 
     {%- if section.settings.menu != blank -%}
       <nav class="header__inline-menu">
-
+        {% comment %} Condition that only shows custom menu on home page, rest of site shows nromal menu {% endcomment %}
         {%- if template == 'index' -%}
-          <h1> SHOW THIS TEMPORARY MENU ON HOME PAGE ONLY!!!  </h1>
+            <ul class="menu-tests"> 
+                {% for link in linklists.secondary-menu.links %}
+                      <li>{{- link.title -}}</li>
+                {% endfor %}
+              </ul>
 
           {% else %}
 

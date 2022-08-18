@@ -5,11 +5,13 @@
     <p> {{- section.settings.jalibuParagraph -}} </p>
     {% comment %} <h3 class="testing-menu-handles"> {{ pages.title }} </h3> {% endcomment %}
     
-    <ul class="menu-tests"> 
+
+    {% comment %} Creeated this menu just for tests... Now sending it to maain menu in header section {% endcomment %}
+    {% comment %} <ul class="menu-tests"> 
         {% for link in linklists.secondary-menu.links %}
               <li>{{- link.title -}}</li>
         {% endfor %}
-  </ul>
+    </ul> {% endcomment %}
 </div>
 
 
