@@ -3,6 +3,7 @@
     "main": {
       "type": "announceexperiment",
       "settings": {
+        "announceId": "Insert your Announce Text here.."
       }
     }
   },
