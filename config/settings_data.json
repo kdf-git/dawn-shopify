@@ -6,6 +6,7 @@
         "blocks": {
           "023e5562-6b65-47ef-ad01-0a5406922049": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "accent-1",
@@ -82,6 +83,12 @@
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
+        }
+      },
+      "announceexperiment": {
+        "type": "announceexperiment",
+        "settings": {
+          "announceId": ""
         }
       }
     },
