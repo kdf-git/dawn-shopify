@@ -1,12 +1,40 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<div class="announceContainer">
+  <p class="annouceContent">
+      Welcome to our store
+  </p>
+</div>
+
+
+
+{% style %}
+  .announceContainer{
+    width: 100%;
+    background-color: #010101;
+    
+}
+.annouceContent{
+    margin: 0;
+    padding: .5rem;
+    text-align: center;
+    color: #ffffff;
+}
+{% endstyle %}
 
 {% javascript %}
 {% endjavascript %}
+
+{% schema %}
+  {
+    "name": "Announce Experiment",
+    "settings": [
+      {
+        "type": "text",
+        "id": "announceId",
+        "label": "Announce Text",
+        "default": "Insert your Announce Text here"
+      }
+    ]
+  }
+{% endschema %}
+
