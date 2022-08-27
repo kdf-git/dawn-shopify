@@ -88,7 +88,7 @@
       "announceexperiment": {
         "type": "announceexperiment",
         "settings": {
-          "announceId": ""
+          "announceId": "This is my test Announcement Bar"
         }
       }
     },
