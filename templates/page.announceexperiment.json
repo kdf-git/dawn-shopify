@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "announceexperiment",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
