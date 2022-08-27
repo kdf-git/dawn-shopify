@@ -1,7 +1,9 @@
 
 <div class="announceContainer">
   <p class="annouceContent">
-      Welcome to our store
+    {% if section.settings.announceId != blank %}  
+    {{ section.settings.announceId }}
+  {% endif %}
   </p>
 </div>
 
