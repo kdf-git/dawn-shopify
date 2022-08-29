@@ -49,6 +49,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pacific-Hero-Image.jpg",
+        "image_2": "shopify:\/\/shop_images\/laptop-coffee.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
