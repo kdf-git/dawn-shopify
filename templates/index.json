@@ -53,7 +53,7 @@
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
