@@ -52,7 +52,7 @@
         "image_2": "shopify:\/\/shop_images\/banner_Image_Size_Tests.webp",
         "image_overlay_opacity": 50,
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
