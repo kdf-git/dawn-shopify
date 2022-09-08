@@ -1,0 +1,42 @@
+{% if request.design_mode and section.settings.builder_content_entry_preview == '7a07a348506840d5b56d00db7baef97c' %}
+{% include 'content.7a07a348506840d5b56d00db7baef97c.builder' %}
+{% else %}
+  {% include 'model.builder-first-section.builder' %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Builder first section",
+  "tag": "section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Custom Builder.io Section"
+    },
+    {
+      "type": "paragraph",
+      "content": "To edit and customize this section, visit the [model in Builder](https://builder.io/content?model=2c1789e1e055476a879294db589986c6). To learn more about how sections in Builder work with Shopify, [visit the docs](https://www.builder.io/c/docs/shopify/sections-everywhere)."
+    },
+    {
+      "type": "select",
+      "id": "builder_content_entry_preview",
+      "label": "Content Entry Preview",
+      "info": "Targeting is not used while previewing sections in the Shopify theme editor, meaning this preview will not change based on the targeting you have set. If you are using targeting, you need to manually select an entry to preview it. This setting only affects the preview, not what displays on your live site.",
+      "options": [
+        { "value": "7a07a348506840d5b56d00db7baef97c", "label": "builder-first-section section 08/09/2022"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Builder entries used"
+    },
+    {
+  "type": "paragraph",
+  "content": "Name: builder-first-section section 08/09/2022 - 14:01:10. Targeting: no targeting. Visit the [entry in Builder](https://builder.io/content/7a07a348506840d5b56d00db7baef97c)"
+}
+  ],
+  "presets":[{
+    "name": "Builder first section"
+  }]
+}
+{% endschema %}

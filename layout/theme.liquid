@@ -211,7 +211,10 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  </head>
+  {% if request.design_mode %}
+<script async src="https://cdn.builder.io/js/webcomponents"></script>
+{% endif %}
+        </head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
