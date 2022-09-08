@@ -228,6 +228,12 @@
         "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
         "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
       }
+    },
+    "166261909383a417ee": {
+      "type": "2c1789e1e055476a879294db589986c6-builder-io",
+      "settings": {
+        "builder_content_entry_preview": "7a07a348506840d5b56d00db7baef97c"
+      }
     }
   },
   "order": [
@@ -239,6 +245,7 @@
     "collage",
     "video",
     "multicolumn",
-    "16600617455425742c"
+    "16600617455425742c",
+    "166261909383a417ee"
   ]
 }
