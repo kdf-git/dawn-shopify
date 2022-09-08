@@ -13,6 +13,12 @@
       "settings": {
       }
     },
+    "166261909383a417ee": {
+      "type": "2c1789e1e055476a879294db589986c6-builder-io",
+      "settings": {
+        "builder_content_entry_preview": "7a07a348506840d5b56d00db7baef97c"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -228,24 +234,18 @@
         "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
         "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
       }
-    },
-    "166261909383a417ee": {
-      "type": "2c1789e1e055476a879294db589986c6-builder-io",
-      "settings": {
-        "builder_content_entry_preview": "7a07a348506840d5b56d00db7baef97c"
-      }
     }
   },
   "order": [
     "superJalibu",
     "main",
+    "166261909383a417ee",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
     "multicolumn",
-    "16600617455425742c",
-    "166261909383a417ee"
+    "16600617455425742c"
   ]
 }
