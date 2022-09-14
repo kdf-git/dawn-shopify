@@ -2,7 +2,6 @@
   "sections": {
     "superJalibu": {
       "type": "jalibu",
-      "disabled": true,
       "settings": {
         "jalibuId": "Christmas",
         "jalibuParagraph": "Move in silence"
