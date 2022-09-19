@@ -199,6 +199,10 @@
             <h1 class="product__title" {{ block.shopify_attributes }}>
               {{ product.title | escape }}
             </h1>
+
+            {% comment %} Testing page title {% endcomment %}
+            <h2> Can you see this page title... {{ page_title }} </h2>
+
             {% comment %} <h2> By the way, I'm here testing Tags and Conditionals...</h2>
             {% for tag in product.tags %}
               {% if tag == "Airports" %}
