@@ -202,6 +202,7 @@
 
             {% comment %} Testing page title {% endcomment %}
             <h2> Can you see this page title... {{ page_title }} </h2>
+            <h3>How about this? {{ product.title | handle }}</h3>
 
             {% comment %} <h2> By the way, I'm here testing Tags and Conditionals...</h2>
             {% for tag in product.tags %}
