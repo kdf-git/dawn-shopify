@@ -1,9 +1,15 @@
 <div class="page-width">
     <h1> {{- section.settings.jalibuId -}} </h1>
-    {% comment %} {% assign productTests = Product.handle %} {% endcomment %}
-    <h3>  {{ page_title }} </h3>
     
-    <h2>Can you see this h2 message here?</h2>
+    {% comment %} try insert a product recommendation {% endcomment %}
+    <ul>
+      {% for recommendation in recommendations.products %}
+        <li>
+          {% render 'card-product' %}
+        </li>
+      {% endfor %}
+    </ul>
+
 
     <p> {{- section.settings.jalibuParagraph -}} </p>
     {% comment %} <h3 class="testing-menu-handles"> {{ pages.title }} </h3> {% endcomment %}
