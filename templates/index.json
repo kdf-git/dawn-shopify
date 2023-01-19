@@ -4,7 +4,8 @@
       "type": "jalibu",
       "settings": {
         "jalibuId": "Christmas",
-        "jalibuParagraph": "Move in silence"
+        "jalibuParagraph": "Move in silence",
+        "jalibu-image": "shopify:\/\/shop_images\/190a1286-ccca-457d-bb2a-dbcce836612b.jpg"
       }
     },
     "main": {
