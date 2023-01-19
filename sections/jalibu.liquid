@@ -12,6 +12,8 @@
 
 
     <p> {{- section.settings.jalibuParagraph -}} </p>
+    <img alt="{{ image.alt }}" src="{{ section.settings.jalibu-image }}" width="{{ image.width }}" height="{{ image.height }}">
+
     {% comment %} <h3 class="testing-menu-handles"> {{ pages.title }} </h3> {% endcomment %}
     
 
@@ -55,6 +57,11 @@
         "type": "text",
         "id": "jalibuParagraph",
         "label": "Jalibu Paragraph"
+      },
+      {
+        "type": "image_picker",
+        "id": "jalibu-image",
+        "label": "Image"
       }
   ]
 }
