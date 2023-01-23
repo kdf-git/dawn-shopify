@@ -1,5 +1,6 @@
 <div class="page-width">
     <h1> {{- section.settings.jalibuId -}} </h1>
+    <h2> {{- section.settings.custom_text_body -}} </h2>
     
     {% comment %} try insert a product recommendation {% endcomment %}
     <ul>
@@ -42,8 +43,7 @@
 
 {% javascript %}
 console.log("This JS Console message is running is injected from a JS liquid Tag...")
-alert("This Alert message is running is injected from a JS liquid Tag...")
-alert("Hello! I am an alert box!!");
+
 {% endjavascript %}
 
 
@@ -67,6 +67,12 @@ alert("Hello! I am an alert box!!");
         "type": "image_picker",
         "id": "jalibu-image",
         "label": "Image"
+      },
+      {
+        "id": "custom_text_body",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
       }
   ]
 }
