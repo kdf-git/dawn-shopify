@@ -1,15 +1,18 @@
 {
   "sections": {
+    "secquionRefresh": {
+      "type": "sectionRefresher",
+      "settings": {
+        "secRefresherText": "",
+        "SectionRefresherTextParagraph": ""
+      }
+    },
     "superJalibu": {
       "type": "jalibu",
       "settings": {
         "jalibuId": "Christmas",
-        "jalibuParagraph": "Move in silence"
-      }
-    },
-    "secquionRefresh": {
-      "type": "sectionRefresher",
-      "settings": {
+        "jalibuParagraph": "Move in silence",
+        "custom_text_body": "<p>Add your text here<\/p>"
       }
     },
     "main": {
@@ -239,6 +242,13 @@
         "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
         "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
       }
+    },
+    "4c58f037-4f07-4d8a-951b-04869942c1b5": {
+      "type": "sectionRefresher",
+      "settings": {
+        "secRefresherText": "Telcto Mundo!",
+        "SectionRefresherTextParagraph": ""
+      }
     }
   },
   "order": [
@@ -252,6 +262,7 @@
     "collage",
     "video",
     "multicolumn",
-    "16600617455425742c"
+    "16600617455425742c",
+    "4c58f037-4f07-4d8a-951b-04869942c1b5"
   ]
 }
