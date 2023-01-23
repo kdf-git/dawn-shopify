@@ -209,12 +209,24 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "d98c2965-6e44-4d81-94d3-4aadaa4c7154": {
+      "type": "twoImagebanner",
+      "settings": {
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "backgroundImagePicker": "shopify:\/\/shop_images\/190a1286-ccca-457d-bb2a-dbcce836612b.jpg",
+        "section_titleTwo": "Two Talk about your brand",
+        "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
+        "backgroundImagePickerTwo": "shopify:\/\/shop_images\/organized-workspace.jpg"
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "d98c2965-6e44-4d81-94d3-4aadaa4c7154"
   ]
 }

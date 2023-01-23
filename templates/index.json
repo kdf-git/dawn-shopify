@@ -4,7 +4,8 @@
       "type": "jalibu",
       "settings": {
         "jalibuId": "Christmas",
-        "jalibuParagraph": "Move in silence"
+        "jalibuParagraph": "Move in silence",
+        "custom_text_body": "<p>Add your text here<\/p>"
       }
     },
     "main": {
@@ -112,6 +113,17 @@
         "show_rating": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "16600617455425742c": {
+      "type": "twoImagebanner",
+      "settings": {
+        "section_title": "Left section title here",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "backgroundImagePicker": "shopify:\/\/shop_images\/freshen-position1.png",
+        "section_titleTwo": "RIght section Title here",
+        "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
+        "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
       }
     },
     "collage": {
@@ -223,17 +235,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16600617455425742c": {
-      "type": "twoImagebanner",
-      "settings": {
-        "section_title": "Left section title here",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "backgroundImagePicker": "shopify:\/\/shop_images\/freshen-position1.png",
-        "section_titleTwo": "RIght section Title here",
-        "textTwo": "<p>Second Description Use this text to share information about your brand with your<\/p>",
-        "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
-      }
     }
   },
   "order": [
@@ -243,9 +244,9 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "16600617455425742c",
     "collage",
     "video",
-    "multicolumn",
-    "16600617455425742c"
+    "multicolumn"
   ]
 }
