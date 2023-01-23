@@ -1,0 +1,27 @@
+<h1> {{ section.settings.secRefresherText }} </h1>
+
+
+
+
+{% schema %}
+{
+  "name": "Section Refresher",
+  "settings": [
+    {
+      "type": "text",
+      "id": "secRefresherText",
+      "label": "Section Refresher Text"
+    },
+    {
+        "type": "richtext",
+        "id": "SectionRefresherTextParagraph",
+        "label": "Section Refresher Text Paragraph"
+      },
+      {
+        "type": "image_picker",
+        "id": "sectionRefresherTextImage",
+        "label": "Image"
+      }
+  ]
+}
+{% endschema %}
