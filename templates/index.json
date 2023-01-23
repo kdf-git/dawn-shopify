@@ -7,6 +7,11 @@
         "jalibuParagraph": "Move in silence"
       }
     },
+    "secquionRefresh": {
+      "type": "sectionRefresher",
+      "settings": {
+      }
+    },
     "main": {
       "type": "announcement-bar",
       "settings": {
@@ -237,6 +242,7 @@
     }
   },
   "order": [
+    "secquionRefresh",
     "superJalibu",
     "main",
     "166261909383a417ee",
