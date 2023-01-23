@@ -1,18 +1,15 @@
 {
   "sections": {
-    "secquionRefresh": {
-      "type": "sectionRefresher",
-      "settings": {
-        "secRefresherText": "sbsh srh sth fhlf h, d",
-        "SectionRefresherTextParagraph": ""
-      }
-    },
     "superJalibu": {
       "type": "jalibu",
       "settings": {
         "jalibuId": "Christmas",
-        "jalibuParagraph": "Move in silence",
-        "custom_text_body": "<p>Add your text here<\/p>"
+        "jalibuParagraph": "Move in silence"
+      }
+    },
+    "secquionRefresh": {
+      "type": "sectionRefresher",
+      "settings": {
       }
     },
     "main": {
