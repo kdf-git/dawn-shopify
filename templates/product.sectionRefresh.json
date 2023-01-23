@@ -3,6 +3,8 @@
     "main": {
       "type": "sectionRefresher",
       "settings": {
+        "secRefresherText": "khpjadva[vkav",
+        "SectionRefresherTextParagraph": ""
       }
     }
   },
