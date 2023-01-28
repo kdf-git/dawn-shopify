@@ -24,6 +24,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/shopify-trust-badge.png",
           "logo_width": 90,
           "logo_position": "top-center",
           "menu": "main-menu",
