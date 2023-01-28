@@ -25,10 +25,10 @@
         </form>
         <button type="button" class="link button-label">{{ 'general.continue_shopping' | t }}</button>
          <img
-            src="{{ item.image | img_url: '140x' }}"
-            alt="{{ item.image.alt | escape }}"
+            src="{{ product.media | img_url: '140x' }}"
+            alt="{{ product.media.alt | escape }}"
             width="70"
-            height="{{ 70 | divided_by: item.image.aspect_ratio | ceil }}"
+            height="70"
             loading="lazy"
           >
       </div>
