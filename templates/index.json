@@ -247,7 +247,15 @@
       "type": "sectionRefresher",
       "settings": {
         "secRefresherText": "Telcto Mundo!",
-        "SectionRefresherTextParagraph": ""
+        "SectionRefresherTextParagraph": "<p>Paragraph content here<\/p>",
+        "sectionRefresherTextImage": "shopify:\/\/shop_images\/190a1286-ccca-457d-bb2a-dbcce836612b.jpg"
+      }
+    },
+    "a505e797-e0df-4a7d-ac1c-a7158810eeb8": {
+      "type": "refreshersectiontwo",
+      "settings": {
+        "refresherSectionTwoText": "Test Creating Sections Everywhere",
+        "refresherSectionTwoParagraph": ""
       }
     }
   },
@@ -263,6 +271,7 @@
     "video",
     "multicolumn",
     "16600617455425742c",
-    "4c58f037-4f07-4d8a-951b-04869942c1b5"
+    "4c58f037-4f07-4d8a-951b-04869942c1b5",
+    "a505e797-e0df-4a7d-ac1c-a7158810eeb8"
   ]
 }
