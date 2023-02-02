@@ -209,12 +209,20 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "3ab0ac8c-a95d-4d0f-aac8-8e6c74b43645": {
+      "type": "refreshersectiontwo",
+      "settings": {
+        "refresherSectionTwoText": "kjgi;fuoy",
+        "refresherSectionTwoParagraph": "<p>dytdufi<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "3ab0ac8c-a95d-4d0f-aac8-8e6c74b43645"
   ]
 }
