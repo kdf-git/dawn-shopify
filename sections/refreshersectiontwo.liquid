@@ -1,0 +1,40 @@
+<h1> {{ section.settings.refresherSectionTwoText }} </h1>
+<p> {{ section.settings.refresherSectionTwo.refresherSectionTwoParagraph }} </p>
+
+<img
+  alt="{{ image.alt }}"
+  src="{{ section.settings.refresherSectionTwoImage }}"
+  width="{{ 300 }}"
+  height="{{ 200 }}"
+  loading= "lazy"
+>
+
+{% schema %}
+{
+  "name": "Refresher Section Two",
+  "settings": [
+    {
+      "type": "text",
+      "id": "refresherSectionTwoText",
+      "label": "Section Refresher Text"
+    },
+    
+    {
+        "type": "richtext",
+        "id": "refresherSectionTwoParagraph",
+        "label": "Section Refresher Text Paragraph"
+      },
+      {
+        "type": "image_picker",
+        "id": "refresherSectionTwoImage",
+        "label": "Image"
+      }
+      
+  ],
+  "presets": [
+    {
+    "name": "refresher Section Two"
+    }
+    ]
+}
+{% endschema %}
