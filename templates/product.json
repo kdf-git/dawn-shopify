@@ -214,7 +214,8 @@
       "type": "refreshersectiontwo",
       "settings": {
         "refresherSectionTwoText": "kjgi;fuoy",
-        "refresherSectionTwoParagraph": "<p>dytdufi<\/p>"
+        "refresherSectionTwoParagraph": "<p>dytdufi<\/p>",
+        "refresherSectionTwoImage": "shopify:\/\/shop_images\/organized-workspace.jpg"
       }
     }
   },
