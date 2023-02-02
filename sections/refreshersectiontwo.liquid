@@ -3,7 +3,7 @@
 
  <img
   alt="{{ image.alt }}"
-  src="{{ section.settings.refresherSectionTwoImage }}"
+  src="{{ section.settings.refresherSectionTwoImage | image_url: 'master' }}"
   width="{{ 1000 }}"
   height="{{ 500 }}"
   loading= "lazy"
