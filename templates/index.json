@@ -243,11 +243,11 @@
         "backgroundImagePickerTwo": "shopify:\/\/shop_images\/inspire-position2.png"
       }
     },
-    "4c58f037-4f07-4d8a-951b-04869942c1b5": {
-      "type": "sectionRefresher",
+    "87efaef2-9684-46b3-a8ba-204a5333610c": {
+      "type": "refreshersectiontwo",
       "settings": {
-        "secRefresherText": "Telcto Mundo!",
-        "SectionRefresherTextParagraph": ""
+        "refresherSectionTwoText": "i;ug;9ut;",
+        "refresherSectionTwoParagraph": "<p>lbououg<\/p>"
       }
     }
   },
@@ -263,6 +263,6 @@
     "video",
     "multicolumn",
     "16600617455425742c",
-    "4c58f037-4f07-4d8a-951b-04869942c1b5"
+    "87efaef2-9684-46b3-a8ba-204a5333610c"
   ]
 }
