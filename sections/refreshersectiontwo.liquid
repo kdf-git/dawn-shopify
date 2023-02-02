@@ -1,3 +1,13 @@
+{% style %} 
+.bgImg-{
+  background-image: url('{{ section.settings.refresherSectionTwoImage | img_url: 'master' }}');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+{% endstyle %}
+
 <h1> {{ section.settings.refresherSectionTwoText }} </h1>
 <h2> {{- section.settings.refresherSectionTwoParagraph -}} </h2>
 
@@ -12,15 +22,7 @@
  > {% endcomment %}
 
 
-    {% style %} 
-    .bgImg-{
-      background-image: url('{{ section.settings.refresherSectionTwoImage | img_url: 'master' }}');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-  
-  {% endstyle %}
+
 
 
 {% schema %}
