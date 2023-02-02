@@ -1,13 +1,27 @@
 <h1> {{ section.settings.refresherSectionTwoText }} </h1>
 <h2> {{- section.settings.refresherSectionTwoParagraph -}} </h2>
 
- <img
+<div class=".bgImg-"></div>
+
+ {% comment %} <img
   alt="{{ image.alt }}"
   src="{{ section.settings.refresherSectionTwoImage | image_url: 'master' }}"
   width="{{ 1000 }}"
   height="{{ 500 }}"
   loading= "lazy"
- >
+ > {% endcomment %}
+
+
+    {% style %} 
+    .bgImg-{
+      background-image: url('{{ section.settings.refresherSectionTwoImage | img_url: 'master' }}');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  
+  {% endstyle %}
+
 
 {% schema %}
 {
